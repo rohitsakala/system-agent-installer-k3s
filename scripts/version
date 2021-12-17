@@ -82,6 +82,6 @@ fi
 URI_VERSION=$(sed -e 's/+/%2B/g' <<<"$VERSION")
 VERSION=$(sed -e 's/+/-/g' <<<"$VERSION")
 
-REPO=${REPO:-rancher}
+REPO=${REPO:-rohitsakala}
 
 IMAGE=${REPO}/system-agent-installer-k3s:${VERSION}
